@@ -13,8 +13,7 @@ This project showcases modern UI design, smooth responsiveness, and clean, seman
 - 📦 **Product Grid** — Displays flower collections in a responsive grid  
 - 💬 **Customer Reviews** — Beautiful testimonial cards with ratings  
 - 📞 **Contact Form** — Simple form for customers to reach out easily  
-- 🚚 **Free & Fast Delivery + 24/7 Support Section**  
-- 🌻 **Footer Section** — Includes contact info and social media links  
+- 🚚 **Free & Fast Delivery + 24/7 Support Section**   
 
 ---
 
