@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- tailwind css CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar section -->
+     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class=" text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="flex text-gray-600  gap-5 cursor-pointer  hidden md:flex">
+            <li class="">
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li class="">
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+            <li class="">
+                <a class="hover:underline hover:text-black" href="contact.html">contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Products Section-->
+    <div class="flex flex-col items-center">
+        <h1 class="font-bold text-2xl p-7">Our Products</h1>
+        <input type="text" placeholder="Search for a Product..." class="p-2 border  border-black w-2/3">
+    </div>
+    <!--Flowers Catagory-->
+    <div class="grid grid-cols-2 gap-5 mt-8 md:grid-cols-4">
+        <div class="flex flex-col items-center text-center">
+            <img src="images/flower_1.png" class="w-200 inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Daisy</h1>
+            <p>$199</p>
+        </div>
+            <div class="flex flex-col items-center text-center">
+               <img src="images/flower_2.png" class="w-200 inline hover:shadow-xl transform hover:-translate-y-2">
+               <h1>Pansy</h1>
+               <p>$199</p>
+            </div>
+             <div class="flex flex-col items-center text-center">
+               <img src="images/flower_3.png" class="w-200 inline hover:shadow-xl transform hover:-translate-y-2">
+               <h1>Carnation</h1>
+               <p>$199</p>
+            </div>
+             <div class="flex flex-col items-center text-center">
+               <img src="images/flower_4.png" class="w-200 inline hover:shadow-xl transform hover:-translate-y-2">
+               <h1>Rose</h1>
+               <p>$299</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+               <img src="images/flower_5.png" class="w-200 inline hover:shadow-xl transform hover:-translate-y-2">
+               <h1>peony</h1>
+               <p>$299</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+               <img src="images/flower_6.png" class="w-200 inline hover:shadow-xl transform hover:-translate-y-2">
+               <h1>Orchild</h1>
+               <p>$299</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+               <img src="images/flower_7.png" class="w-200 inline hover:shadow-xl transform hover:-translate-y-2">
+               <h1>Lily</h1>
+               <p>$299</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+               <img src="images/flower_8.png" class="w-200 inline hover:shadow-xl transform hover:-translate-y-2">
+               <h1>Sunflower</h1>
+               <p>$299</p>
+            </div>
+        </div>
+        </div>
+    <!-- Footer -->
+     <section class="bg-green-100 mt-4">
+        <h1 class="text-3xl p-3 font-bold">Greeenden</h1>
+        <p class="p-3 mt-2">Supporting local growers, sharing floral love, and making your day brighter!</p>
+        <p class="mt-4 p-3">&copy 2025 Greenday.com</p>
+    </section>
+</body>
+</html>
